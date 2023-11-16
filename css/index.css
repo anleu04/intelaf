@@ -1,0 +1,75 @@
+.panel-control{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1192px;
+    height: 64px;
+    margin: auto;
+}
+.panel-control img{
+    height: 45px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-1{
+    width: 120px;
+    background-color: #f7f7f7;
+    color: #808080;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.buscador{
+    width: 370px;
+    height: 55px;
+    background-color: gray;
+}
+.panel-iconos{
+    width: 370px;
+    height: 55px;
+    background-color: gray;
+}
+/* Buscador */
+.buscador{
+    width: 400px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buscador > div{
+    background-color: #f7f7f7;
+    border:1px solid black;
+    width: 372px;
+    height: 45px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador div div{
+    width: 27.5;
+    height: 27.5;
+    background-color: rgb(244, 142, 0);
+    border: 100%;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buscador > div div span{
+    font-size: 28px;
+}
+.buscador input{
+    max-width: 100%;
+    border: none;
+    background-color: #f7f7f7;
+    inline-size: none;
+    outline: none;
+}
